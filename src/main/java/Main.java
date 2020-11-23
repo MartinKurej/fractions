@@ -69,11 +69,6 @@ public class Fraction implements IFraction {
         return findGreatestCommonDenominator(i2, i1 % i2);
     }
 
-    /**
-     * USELESS - zbytečný řádky, který se nemusí ani použít
-     * bohatě stačí jen findGreatestCommonDenominator
-     */
-
     private static Integer findLowestCommonMultiple(Integer i1, Integer i2) {
         if (i1 == 0 || i2 == 0) return 0;
         else {
